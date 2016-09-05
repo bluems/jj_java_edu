@@ -14,7 +14,7 @@ public class Hello {
 
 		s = sum(i, 10);
 		a = '?';
-		System.out.println(a);
+		System.out.println(a);// c의 printf도 있다.
 		System.out.println("Hello");
 		System.out.println(s);
 
