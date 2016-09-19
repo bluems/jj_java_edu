@@ -34,14 +34,13 @@ public class ex3_7 {
 	
 	private static void clap()
 	{
-		System.out.print("¹Ú¼ö");
 		switch(result)
 		{
 		case 1:
-			System.out.println("Â¦");
+			System.out.println("¹Ú¼öÂ¦");
 			break;
 		case 2:
-			System.out.println("Â¦Â¦");
+			System.out.println("¹Ú¼öÂ¦Â¦");
 			break;
 		}
 		
