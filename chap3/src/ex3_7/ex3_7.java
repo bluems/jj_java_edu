@@ -12,8 +12,7 @@ public class ex3_7 {
 		
 		for(int i = 0; i < 5; i++)
 		{
-			int intArray[];
-			intArray = new int[5];
+			int intArray[] = new int[5];
 			
 			intArray[i] = scanner.nextInt();
 			
