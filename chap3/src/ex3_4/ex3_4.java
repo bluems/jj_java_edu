@@ -6,7 +6,11 @@ public class ex3_4 {
 		
 		System.out.println("구구단 출력입니다.");
 		
-		for(int i = 1; i < 10; i++)	
+		for(int i = 1; i < 10; i++)
+		{
+			if(i%3!=0)
+				continue;
+			
 			for(int j = 1; j < 10; j++)
 			{
 				System.out.print(i + "X" + j + "=" + i * j);
@@ -16,7 +20,7 @@ public class ex3_4 {
 				else
 					System.out.println("");
 			}
-
+		}
 	}
 
 }
