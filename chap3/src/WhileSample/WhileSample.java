@@ -13,6 +13,7 @@ public class WhileSample {
 		while((n = scanner.nextInt()) != 0)
 		{
 			sum+=n;
+			count++;
 		}
 		
 		System.out.println("ÀÔ·ÂµÈ °¹¼ö > "+count);
