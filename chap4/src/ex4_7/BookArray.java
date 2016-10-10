@@ -30,6 +30,8 @@ public class BookArray {
 		
 		for(int i=0;i<book.length;i++)
 			System.out.println("(" + book[i].title + ", " + book[i].author + ")");
+		
+		scanner.close();
 	}
 
 }
