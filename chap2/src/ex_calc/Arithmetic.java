@@ -22,6 +22,7 @@ public class Arithmetic {
 			if(op2 == 0)
 			{
 				System.out.println("0으로 나눌 수 없습니다.");
+				scanner.close();
 				return;
 			}
 				
@@ -32,6 +33,7 @@ public class Arithmetic {
 		}
 		
 		System.out.println("Result : "+result);
+		scanner.close();
 	}
 
 }

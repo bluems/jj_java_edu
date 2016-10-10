@@ -24,6 +24,7 @@ public class Grading {
 			grade = 'F';
 		
 		System.out.println("네놈의 상적은 "+grade+" 란다. 헿");
+		scanner.close();
 	}
 
 }

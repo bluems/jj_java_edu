@@ -19,6 +19,7 @@ public class ex3_8 {
 
 		
 		System.out.println("Æò±ÕÀº > " + (double)sum / intArray.length);
+		scanner.close();
 	}
 
 }

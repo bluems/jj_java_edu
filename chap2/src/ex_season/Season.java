@@ -24,6 +24,7 @@ public class Season {
 		default:
 			System.out.println("똑띠 입력 안하냐");
 		}
+		scanner.close();
 	}
 
 }

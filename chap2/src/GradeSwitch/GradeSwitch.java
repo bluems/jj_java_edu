@@ -33,7 +33,7 @@ public class GradeSwitch {
 			System.out.println("Bye");
 			
 		}
-		
+		scanner.close();
 	}
 
 }

@@ -14,7 +14,7 @@ public class circle2 {
 		double result = radius * radius * PI;
 		
 		System.out.println("입력된 반지름 : "+radius+", 원의 면적은 : "+result);
-		
+		scanner.close();
 	}
 
 }

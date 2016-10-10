@@ -39,6 +39,7 @@ public class Game369 {
 				System.out.println("박수 없음");
 				break;
 		}
+		scanner.close();
 		
 	}
 
