@@ -29,7 +29,9 @@ public class Book {
 		Book bible = new Book("Bible");
 		Book emptyBook = new Book();
 		
+		javaBook.show();
 		bible.show();
+		emptyBook.show();
 	}
 
 }
