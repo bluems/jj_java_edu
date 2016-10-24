@@ -14,16 +14,16 @@ public class Box {
 	}
 	
 	public void draw() {
-		for ( int i = 0; i < height; i++) {
-			for (int j = 0; j< width;j++) {
-				System.out.print(fillChar);
+		for ( int i = 0; i < this.height; i++) {
+			for (int j = 0; j< this.width;j++) {
+				System.out.print(this.fillChar);
 			}
 			System.out.println();
 		}
 	}
 	
 	public void fill(char c) {
-		fillChar = c;
+		this.fillChar = c;
 	}
 	
 	public static void main(String[] args) {	
