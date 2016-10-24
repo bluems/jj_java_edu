@@ -28,7 +28,7 @@ public class GamblingGame {
 			int [] val = new int [3];
 			for( int i = 0; i < val.length; i++) {
 				val[i] = (int)(Math.random()*3);
-				System.out.println(val[i] + "\t");
+				System.out.print(val[i] + "\t");
 			}
 			
 			System.out.println();
