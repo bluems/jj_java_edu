@@ -24,7 +24,9 @@ public class NamedCircle extends Circle {
 
 	public static void main(String[] args) {
 		NamedCircle w = new NamedCircle(5, "Waffle");
+		NamedCircle p = new NamedCircle(30, "Pizza");
 		w.show();
+		p.show();
 
 	}
 
