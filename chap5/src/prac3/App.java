@@ -10,6 +10,7 @@ abstract class Calculator {
 		System.out.print("정수 두개를 입력하세요 >> ");
 		a = scanner.nextInt();
 		b = scanner.nextInt();
+		scanner.close();
 	}
 	
 	public void run() {
