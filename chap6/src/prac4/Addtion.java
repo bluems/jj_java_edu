@@ -17,6 +17,7 @@ public class Addtion {
 		}
 		
 		System.out.println("гую╨ " + sum);
+		scanner.close();
 	}
 
 }
