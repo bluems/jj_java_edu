@@ -1,28 +1,31 @@
 package prac5;
+
 interface StackInterface {
 	int length();
 	String pop();
 	boolean push(String ob);
 }
+
 class StringStack implements StackInterface {
 	private String[] Stack = new String[5];
-	private int s = 0;
+	private int index = 0;
+	
 	public int length() {
 		return Stack.length;
 	}
 	
 	public String pop() {
-		int sn = s;
-		s--;
-		return Stack[sn];
+		return Stack[--index];
 	}
 	
 	public boolean push(String ob) {
-		try {
-			
+		if (index>=length()) {
+			return false;
 		}
-		Stack[s] = ob;
-		s++;
+		
+		Stack[index] = ob;	
+
+		index++;
 		return true;
 	}
 }
