@@ -11,7 +11,11 @@ public class Addtion {
 		Calc calc = new Calc();
 		
 		
-		System.out.println(calc.sub(exp)); 
+		calc.calculator(exp);
+		
+		System.out.println("결과 : " + calc.getResult());
+		
+		
 		
 		
 		//System.out.println("합은 " + sum);
