@@ -8,17 +8,12 @@ public class Addtion {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		String exp = scanner.nextLine();
-		Calc calc = new Calc();
+		Calc calc = new Calc();	
 		
-		
-		calc.calculator(exp);
+		calc.calculator(exp.trim());
 		
 		System.out.println("결과 : " + calc.getResult());
-		
-		
-		
-		
-		//System.out.println("합은 " + sum);
+
 		scanner.close();
 	}
 

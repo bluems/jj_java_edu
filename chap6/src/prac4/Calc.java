@@ -44,7 +44,6 @@ class Calc {
 					
 					if( st.countTokens() == 0 /*(tmp[1].indexOf("+") == -1) && (tmp[1].indexOf("-") == -1) && (tmp[1].indexOf("/") == -1)*/ ) {
 						mul = LastComp(tmp[1],mul,'*');
-						System.out.println("돌긴도냐");
 					}
 					else {
 						tmp[1] = FirstComp(tmp[0],mul,'*');
