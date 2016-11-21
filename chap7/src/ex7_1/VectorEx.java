@@ -19,6 +19,36 @@ public class VectorEx {
 			int n = v.get(i);
 			System.out.println(n);
 		}
+		
+		v.remove(1);
+		
+		System.out.println("벡터 내의 요소 객체 수 : " + v.size());
+		System.out.println("벡터의 현재 용량 : " + v.capacity());
+		
+		for(int i = 0; i< v.size(); i++) {
+			int n = v.get(i);
+			System.out.println(n);
+		}
+		
+		v.clear();
+		
+		System.out.println("벡터 내의 요소 객체 수 : " + v.size());
+		System.out.println("벡터의 현재 용량 : " + v.capacity());
+		
+		for(int i = 0; i< v.size(); i++) {
+			int n = v.get(i);
+			System.out.println(n);
+		}
+		
+		v.removeAllElements();
+		
+		System.out.println("벡터 내의 요소 객체 수 : " + v.size());
+		System.out.println("벡터의 현재 용량 : " + v.capacity());
+		
+		for(int i = 0; i< v.size(); i++) {
+			int n = v.get(i);
+			System.out.println(n);
+		}
 	}
 
 }
