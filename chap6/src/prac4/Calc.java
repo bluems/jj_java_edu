@@ -333,9 +333,9 @@ class Calc {
 		return stack;
 	}
 	
-	private int OutputReverse(int token) { 
+	/*private int OutputReverse(int token) { 
 		return OutputReverse(Integer.toString(token));
-	}
+	}*/
 	
 	private int OutputForward(String token) {
 		int stack = 0;
@@ -353,7 +353,7 @@ class Calc {
 		return stack;
 	}
 	
-	private int OutputForward(int token) {
+	/*private int OutputForward(int token) {
 		return OutputForward(Integer.toString(token));
-	}
+	}*/
 }
