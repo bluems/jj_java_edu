@@ -14,6 +14,7 @@ public class test {
 			System.out.println(st.nextToken());
 		
 		System.out.println(st.countTokens());
+		scanner.close();
 	}
 
 }
