@@ -13,11 +13,14 @@ public class TallManager {
 		
 		
 		System.out.println("2000 ~ 2016 년까지 1년 단위로 키(cm)를 입력");
-		for (int i = 2000; i<2005;i++) {
+		for (int i = 2000; i<2017;i++) {
 			System.out.print("(" + i + ") >> ");
-			height.add(scanner.nextDouble());
+			if (scanner.hasNextDouble())
+				height.add(scanner.nextDouble());
+			else
+				if (scanner.next().equals("exit"))
+					break;
 		}
-		
 		scanner.close();
 		
 		Iterator<Double> it = height.iterator();
