@@ -5,7 +5,7 @@ class MemberInfo {
 	int point;
 	int age;
 	
-	MemberInfo( int age, String addr, int point) {
+	MemberInfo(int age, String addr, int point) {
 		this.addr = addr;
 		this.point = point;
 		this.age = age;
