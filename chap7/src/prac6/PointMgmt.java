@@ -7,10 +7,11 @@ public class PointMgmt {
 	static Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-
+		Management.table();
 		MainLoop: while (true) {
-			System.out.println("1. 등록 2. 조회 3. 관리");
+			System.out.println("┣━━━━━ 1. 등록 2. 조회 3. 관리");
+			System.out.print("┣━━━━━ > ");
+
 			if (scanner.hasNextInt())
 				switch (scanner.nextInt()) {
 
@@ -32,20 +33,21 @@ public class PointMgmt {
 		}
 
 		scanner.close();
+		System.gc();
 	}
 
 	public static void MainCaseInQuery() {
 		InQueryLoop: while (true) {
-			System.out.println("1. 전체 명단 2. 회원 정보 검색 0.이전 메뉴");
-
+			System.out.println("┣━━━━━ 1. 전체 명단 2. 회원 정보 검색 0.이전 메뉴");
+			System.out.print("┣━━━━━ (조회) > ");
 			if (scanner.hasNextInt())
 				switch (scanner.nextInt()) {
 				case 1:
 					Management.View();
-					break InQueryLoop;
+					break;
 				case 2:
 					Management.search();
-					break InQueryLoop;
+					break;
 				case 0:
 				default:
 					break InQueryLoop;
